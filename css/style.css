@@ -1,0 +1,232 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+.center {
+  float: none !important;
+  margin: auto;
+  text-align: center;
+}
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+}
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-control,
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+img.d-block.w-100 {
+  height: 500px;
+  object-fit: cover;
+}
+.carousel-inner {
+  height: 500px;
+}
+.text-center {
+  text-align: center !important;
+}
+h3.title {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #828282;
+    color: #ffffff;
+}
+footer {
+    background-color: #343a40 !important;
+    color: #ffffff;
+}
+
+
+/* from here */
+
+.bgblue {
+background-color: lightblue;
+}
+.bold {
+  font-weight: bold;
+}
+.nopad {
+  padding: 0px !important;
+}
+.pad20 {
+  padding: 20px;
+}
+.padt10 {
+  padding-top: 10px;
+}
+.padtb10 {
+  padding: 10px 0px !important;
+}
+.padtb20 {
+  padding: 20px 0px !important;
+}
+.padlr10 {
+  padding: 0px 10px !important;
+}
+.padlr20 {
+  padding: 0px 20px !important;
+}
+.padlr5 {
+  padding: 0px 5px !important;
+}
+.panel {
+  border: 1px solid #c3ddec;
+  border-radius: 5px;
+}
+.input-group-append {
+  height: 100%;
+}
+input#startDateInput {
+  background-color: #fff;
+}
+.input-group-addon {
+  cursor: pointer;
+}
+.lightborder{
+  border: 1px solid #c3ddec;
+}
+#reporthead {
+  background: #edf5fa;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3784b1;
+  padding: 5px;
+  margin: 0% 15%;
+}
+.faceimg {
+  width: 50px;
+  height: auto;
+}
+.uparrow {
+  font-size: 200% !important; 
+  color: #3784b1; 
+  margin-bottom: -10px !important; 
+  display: block; 
+  margin-top: -15px;
+}
+.namehead {
+  font-size: 14px;
+  font-weight: 400;
+}
+.floatl {
+  float: left;
+}
+.Circle {
+  background-color: white;
+border: 1px solid lightblue;
+padding: 0px;
+height: 70px !important;
+width: 70px !important;
+border-radius: 40px;
+}
+.redC {
+  color: red;
+}
+.flexit {
+  display: flex;
+  flex-wrap: wrap;
+}
+.brown {
+  color: brown;
+}
+.font30 {
+  font-size: 30px;
+}
+.imgLabel {
+  font-size: 13px;
+}
+.blue {
+  color: #104E8B;
+}
+.smallCircle {
+  width: 45px;
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid lightblue;
+}
+.marginTR {
+  float: right;
+  margin-top: -15px;
+  right: 20px;
+  position: absolute;
+}
+.marginTB {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.imgMargin {
+  margin: 0px 0px 0px 20px;
+}
+.marginLeft60 {
+  margin-left: 60px;
+}
+.floatRight {
+  float: right;
+}
+.lightblue {
+  padding: 10px;
+  background: lightblue;
+}
+.font15 {
+  font-size: 13px;
+  vertical-align: middle !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.boldfont {
+  font-weight: bold;
+}
+.hide {
+  display: none !important;
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,135 @@
+{
+    "completedTasks": 108,
+    "totalTasks": 179,
+    "expiredTasks": 0,
+    "rejectedTasks": 0,
+	"processwiseTaskMap": {
+        "Barbeque Area": {
+            "placeGroupId": 0,
+            "completedTasks": 6,
+            "totalTasks": 11,
+            "expiredTasks": 0
+        },
+        "Bench Cleaning": {
+            "placeGroupId": 0,
+            "completedTasks": 1,
+            "totalTasks": 1,
+            "expiredTasks": 0
+        },
+        "Changing Room Indoor": {
+            "placeGroupId": 0,
+            "completedTasks": 20,
+            "totalTasks": 38,
+            "expiredTasks": 0
+        },
+        "Changing Room Outdoor": {
+            "placeGroupId": 0,
+            "completedTasks": 2,
+            "totalTasks": 3,
+            "expiredTasks": 0
+        },
+        "Children Play Area": {
+            "placeGroupId": 0,
+            "completedTasks": 5,
+            "totalTasks": 8,
+            "expiredTasks": 0
+        },
+        "Community Park Checklist": {
+            "placeGroupId": 0,
+            "completedTasks": 0,
+            "totalTasks": 5,
+            "expiredTasks": 0
+        },
+        "Court Area": {
+            "placeGroupId": 0,
+            "completedTasks": 8,
+            "totalTasks": 14,
+            "expiredTasks": 0
+        },
+        "Dog Waste Bin": {
+            "placeGroupId": 0,
+            "completedTasks": 3,
+            "totalTasks": 5,
+            "expiredTasks": 0
+        },
+        "Gate House": {
+            "placeGroupId": 0,
+            "completedTasks": 1,
+            "totalTasks": 1,
+            "expiredTasks": 0
+        },
+        "Gym Equipment": {
+            "placeGroupId": 0,
+            "completedTasks": 5,
+            "totalTasks": 8,
+            "expiredTasks": 0
+        },
+        "Hills Road and Pavements": {
+            "placeGroupId": 0,
+            "completedTasks": 5,
+            "totalTasks": 5,
+            "expiredTasks": 0
+        },
+        "Intersection-Corner": {
+            "placeGroupId": 0,
+            "completedTasks": 10,
+            "totalTasks": 12,
+            "expiredTasks": 0
+        },
+        "Male And Female Toilets Checklist": {
+            "placeGroupId": 0,
+            "completedTasks": 0,
+            "totalTasks": 3,
+            "expiredTasks": 0
+        },
+        "Pool Areas Checklist": {
+            "placeGroupId": 0,
+            "completedTasks": 0,
+            "totalTasks": 5,
+            "expiredTasks": 0
+        },
+        "Roundabout Cleaning": {
+            "placeGroupId": 0,
+            "completedTasks": 3,
+            "totalTasks": 3,
+            "expiredTasks": 0
+        },
+        "Security Gate House Checklist": {
+            "placeGroupId": 0,
+            "completedTasks": 0,
+            "totalTasks": 1,
+            "expiredTasks": 0
+        },
+        "Signage": {
+            "placeGroupId": 0,
+            "completedTasks": 1,
+            "totalTasks": 1,
+            "expiredTasks": 0
+        },
+        "Sikka": {
+            "placeGroupId": 0,
+            "completedTasks": 13,
+            "totalTasks": 16,
+            "expiredTasks": 0
+        },
+        "Sikka Checklist": {
+            "placeGroupId": 0,
+            "completedTasks": 0,
+            "totalTasks": 2,
+            "expiredTasks": 0
+        },
+        "Swimming Pool": {
+            "placeGroupId": 0,
+            "completedTasks": 10,
+            "totalTasks": 19,
+            "expiredTasks": 0
+        },
+        "Waste Bin": {
+            "placeGroupId": 0,
+            "completedTasks": 15,
+            "totalTasks": 18,
+            "expiredTasks": 0
+        }
+    }
+
+}
