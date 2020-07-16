@@ -79,6 +79,8 @@
 
             $.getJSON( "DataObj.json", function( data ) {
               var items = [];
+              var completed = 0;
+              var total = 0;
               $.each( data, function( key, val ) {
                 if (key == "completedTasks") {
                   $("#tasksComplete").html(val);
@@ -94,7 +96,16 @@
                 }
                 else {
                   $.each( val, function( key, val ) {
-                       console.log(key+ " " + val);
+                    $.each( val, function( key, val ) {
+                      if (key == "completedTasks") {
+                        completed += val;
+                      }
+                      else if (key = "totalTasks"){
+                        total += val;
+                      }
+                      // console.log(total);
+                      //  console.log(key+ " " + val);
+                    });
                       if (key == "Barbeque Area") {
                         $.each( val, function( key, val ) {
                           if (key == "completedTasks") {
@@ -306,6 +317,8 @@
                         });
                       }
 
+                      var percent = completed/total *100;
+                      $("#projectwisepercent").html(Math.ceil(percent)+"%");
                   });
                 }
             // console.log(key+ " " + val);
