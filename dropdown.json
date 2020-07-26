@@ -1,0 +1,44 @@
+{
+   	"taskMap": {
+        "option1": {
+            "IdentifierType": "Camera"
+         },
+        "option2": {
+            "IdentifierType": "phone"
+        },
+        "option3": {
+            "IdentifierType": "Cell"
+        },
+        "option4": {
+            "IdentifierType": "iphone"
+        },
+        "option5": {
+            "IdentifierType": "DSLR"
+        },
+        "option6": {
+            "IdentifierType": "doubleCamera"
+        },
+        "option7": {
+            "IdentifierType": "TV"
+        },
+        "option8": {
+            "IdentifierType": "LCD",
+            "completedTasks": 3,
+            "totalTasks": 5,
+            "expiredTasks": 0
+        },
+        "option9": {
+            "IdentifierType": "LED",
+            "completedTasks": 1,
+            "totalTasks": 1,
+            "expiredTasks": 0
+        },
+        "option10": {
+            "IdentifierType": "ipod",
+            "completedTasks": 5,
+            "totalTasks": 8,
+            "expiredTasks": 0
+        }
+    }
+
+}

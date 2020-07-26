@@ -327,3 +327,94 @@
              
               
             });
+
+
+          // Datatable
+            var tablerow = [];
+          $.getJSON( "jsonforTable.json", function( data ) {
+
+            $.each( data, function( key, val ) {
+              tablerow.push(key);
+              //  console.log(key);
+            });
+
+          });
+          
+          
+          var tab = [{"userid":27412,"username":"120368","assetname":"Siddhiram","isLoggedInUser":"false","currTime":"2020-07-19 09:47:56","checkintime":"null","checkouttime":"null","checkEnable":"false","assetid":"27841","userGroupName":"null","totalAssignedGeofences":0,"noOrder":"false","totalduration":"null","totaldistance":"null"}]
+          
+          if(tablerow != null) {
+            // console.log(tablerow);
+
+          $('#mytable').DataTable( {
+            "processing": true,
+            "deferRender": true,
+            "data": tablerow,
+            "columns": [
+                { "data": 'userid' },
+                { "data": 'username' },
+                { "data": 'assetname' },
+                { "data": 'isLoggedInUser' },
+                { "data": 'currTime' },
+                { "data": 'checkintime' },
+                { "data": 'checkouttime' },
+                { "data": 'checkEnable' },
+                { "data": 'assetid' },
+                { "data": 'userGroupName' },
+                { "data": 'totalAssignedGeofences' },
+                { "data": 'noOrder' },
+                { "data": 'totalduration' },
+                { "data": 'totaldistance' },
+            ]
+        } );
+      }
+    
+
+      // Form function
+      $(document).ready(function(){
+      var $select = $('#jsonselect');
+      $select.find('option').remove();
+      var count = 1;
+      $.getJSON( "dropdown.json", function( data ) {
+        $.each( data, function( key, val ) {
+          // tablerow.push(key);
+          //  console.log(key+" "+val);
+           $.each( val, function( key, val ) {
+            // console.log(key+" "+val);
+            $.each( val, function( key, val ) {
+              // console.log(key+" "+val);
+              if (key == "IdentifierType") {
+                $select.append('<option value=' + count + '>' + val + '</option>');
+                count++;
+              };
+            });
+           });
+        });
+
+      });
+
+      $.fn.serializeObject = function()
+{
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+      console.table(a);
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+};
+
+$(function() {
+    $('form').submit(function() {
+        alert(JSON.stringify($('form').serializeObject()));
+        return false;
+    });
+});
+    });

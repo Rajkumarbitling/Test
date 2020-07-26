@@ -1,0 +1,24 @@
+[
+    {
+        "userID": 30,
+        "userName": "Prajakta"
+    },
+    {
+        "description": "sample description will be here"
+    },
+    {
+        "identifierID": 19,
+        "identifierType": "Petrol Unleaded"
+    },
+    {
+        "identifierID": 1,
+        "identifierValue": "Diesel"
+    },
+    {
+        "resourceID": 2,
+        "resourceType": "Petrol"
+    },
+    {
+        "resourceStatus": "DIESEL"
+    }
+]

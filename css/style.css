@@ -230,3 +230,10 @@ border-radius: 40px;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+form > .form-group {
+  text-align: left;
+}
+form > button {
+  text-align: right;
+}
