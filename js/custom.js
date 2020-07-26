@@ -1,7 +1,7 @@
     // From here
 
     function bb() {
-      return !1
+      return !1;
     }
     $("#employee").find("h6").addClass('boldfont');
     $("#employee").find("img").removeClass('grayscale');
@@ -45,7 +45,7 @@
              $.when(checkindfd).then(function(){
                      if (localStorage.getItem('keepModalOpen') == 'true') {
                              modalOpen();
-                             localStorage.setItem('keepModalOpen', ' ')
+                             localStorage.setItem('keepModalOpen', ' ');
                      }
              });
 
@@ -100,7 +100,7 @@
                       if (key == "completedTasks") {
                         completed += val;
                       }
-                      else if (key = "totalTasks"){
+                      else if (key == "totalTasks"){
                         total += val;
                       }
                       // console.log(total);
@@ -341,7 +341,7 @@
           });
           
           
-          var tab = [{"userid":27412,"username":"120368","assetname":"Siddhiram","isLoggedInUser":"false","currTime":"2020-07-19 09:47:56","checkintime":"null","checkouttime":"null","checkEnable":"false","assetid":"27841","userGroupName":"null","totalAssignedGeofences":0,"noOrder":"false","totalduration":"null","totaldistance":"null"}]
+          var tab = [{"userid":27412,"username":"120368","assetname":"Siddhiram","isLoggedInUser":"false","currTime":"2020-07-19 09:47:56","checkintime":"null","checkouttime":"null","checkEnable":"false","assetid":"27841","userGroupName":"null","totalAssignedGeofences":0,"noOrder":"false","totalduration":"null","totaldistance":"null"}];
           
           if(tablerow != null) {
             // console.log(tablerow);
@@ -386,7 +386,7 @@
               if (key == "IdentifierType") {
                 $select.append('<option value=' + count + '>' + val + '</option>');
                 count++;
-              };
+              }
             });
            });
         });
