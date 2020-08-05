@@ -339,36 +339,33 @@
               //  console.table(tablerow);
             });
 
+            $('#mytable').DataTable( {
+              "processing": true,
+              "deferRender": true,
+              "searching": true,
+              "scrollX": true,
+              "data": tablerow,
+              "columns": [
+                  { "data": 'userid' },
+                  { "data": 'username' },
+                  { "data": 'assetname' },
+                  { "data": 'isLoggedInUser' },
+                  { "data": 'currTime' },
+                  { "data": 'checkintime' },
+                  { "data": 'checkouttime' },
+                  { "data": 'checkEnable' },
+                  { "data": 'assetid' },
+                  { "data": 'userGroupName' },
+                  { "data": 'totalAssignedGeofences' },
+                  { "data": 'noOrder' },
+                  { "data": 'totalduration' },
+                  { "data": 'totaldistance' },
+              ]
+          } );
+
           });
           
-          
-          var tab = [{"userid":27412,"username":"120368","assetname":"Siddhiram","isLoggedInUser":"false","currTime":"2020-07-19 09:47:56","checkintime":"null","checkouttime":"null","checkEnable":"false","assetid":"27841","userGroupName":"null","totalAssignedGeofences":0,"noOrder":"false","totalduration":"null","totaldistance":"null"}];
-          
-          if(tablerow != null) {
-            console.table(tablerow);
-            console.table(tab);
-          $('#mytable').DataTable( {
-            "processing": true,
-            "deferRender": true,
-            "data": tablerow,
-            "columns": [
-                { "data": 'userid' },
-                { "data": 'username' },
-                { "data": 'assetname' },
-                { "data": 'isLoggedInUser' },
-                { "data": 'currTime' },
-                { "data": 'checkintime' },
-                { "data": 'checkouttime' },
-                { "data": 'checkEnable' },
-                { "data": 'assetid' },
-                { "data": 'userGroupName' },
-                { "data": 'totalAssignedGeofences' },
-                { "data": 'noOrder' },
-                { "data": 'totalduration' },
-                { "data": 'totaldistance' },
-            ]
-        } );
-      }
+        
     
 
       // Form function
