@@ -334,8 +334,9 @@
           $.getJSON( "jsonforTable.json", function( data ) {
 
             $.each( data, function( key, val ) {
-              // tablerow.push(key);
-               console.log(key);
+              var myobj = JSON.parse(key);
+              tablerow.push(myobj);
+              //  console.table(tablerow);
             });
 
           });
@@ -344,8 +345,8 @@
           var tab = [{"userid":27412,"username":"120368","assetname":"Siddhiram","isLoggedInUser":"false","currTime":"2020-07-19 09:47:56","checkintime":"null","checkouttime":"null","checkEnable":"false","assetid":"27841","userGroupName":"null","totalAssignedGeofences":0,"noOrder":"false","totalduration":"null","totaldistance":"null"}];
           
           if(tablerow != null) {
-            // console.table(tablerow);
-
+            console.table(tablerow);
+            console.table(tab);
           $('#mytable').DataTable( {
             "processing": true,
             "deferRender": true,
